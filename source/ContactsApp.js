@@ -1,4 +1,5 @@
-import React, {Component, PropTypes} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import SearchBar from './SearchBar';
 import ContactList from './ContactList';
 
@@ -25,8 +26,9 @@ class ContactsApp extends Component {
 		)
 	}
 }
+
 ContactsApp.propTypes = {
-//	contacts: PropTypes.arrayOf(PropTypes.object)
+	contacts: PropTypes.arrayOf(PropTypes.object)
 }
 
 export default ContactsApp;
