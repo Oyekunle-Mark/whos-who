@@ -1,1 +1,1 @@
-A contacts app witha name filter
+A react contacts app with name filter
